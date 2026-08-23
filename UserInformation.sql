@@ -21,9 +21,6 @@ DROP TABLE Information;
 -- SELETE Table 1
 SELECT * FROM Information;
 
-INSERT INTO Information(email , password , fullname , telephone , location , role) VALUES
-('Admin123@gmail.com' , 'Admin123' , 'Thou rayuth' , '0964723309' , 'Kompost provide' , 'Admin');
-
 -- This table is for Balance
 CREATE TABLE UserBalance(
     id INT PRIMARY KEY,
